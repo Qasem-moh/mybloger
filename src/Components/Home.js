@@ -1,5 +1,5 @@
 import React from 'react';
-import useFetch from "./useFetch";
+import useFetch from "../useFetch";
 import Pending from "./Pending";
 import BlogList from "./BlogList";
 
