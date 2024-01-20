@@ -1,17 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 * {
-  /*margin: 0;*/
-  /*font-family: "Quicksand", serif;*/
-  /*color: #333;*/
+  margin: 0;
+  font-family: "Quicksand", serif;
+  color: #333;
 }
-
-/*.navbar{*/
-/* */
-
-/*}*/
 .containerImg {
-  /*width: 100vw;*/
-  /*height: 100vh;*/
   position: relative;
 }
 
@@ -57,10 +50,6 @@
 }
 .navbar a:hover {
   color: #f1356d;
-}
-.navbar:hover {
-  background-color: #f1356d;
-  text-color: #f2f2f2;
 }
 .content {
   max-width: 600px;
@@ -184,4 +173,23 @@
 .gZmPOF {
   margin: 25% 45%;
   position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  color: #000;
+}
+
+.card {
+  display: inline-grid;
+  justify-items: center;
+  justify-content: center;
+  background-color: #a6a618;
+  margin: 15px 10px;
+  max-height: 550px;
+  min-height: 550px;
 }
