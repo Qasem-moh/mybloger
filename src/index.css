@@ -6,12 +6,13 @@
 }
 .containerImg {
   position: relative;
+  /*margin: 90px auto;*/
 }
 
 .img-bg {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .img-overlay {
@@ -24,14 +25,16 @@
 /* base styles */
 
 .navbar {
+  position: fixed;
   padding: 20px;
-  display: revert;
-  align-items: center;
+  /*display: revert;*/
+  /*align-items: center;*/
   max-width: 100vw;
-  margin: 0 auto;
+  min-width: 100vw;
+  margin:0 auto;
   border-bottom: 1px solid #f2f2f2;
   background-color: #fffffe;
-
+z-index: 999;
 
 }
 .navbar-brand{
