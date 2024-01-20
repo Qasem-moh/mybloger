@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import {Button, Card} from "react-bootstrap";
 
 const BlogList = (blogs ) => {
